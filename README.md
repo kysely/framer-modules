@@ -59,9 +59,8 @@ via Framer Modules, you can include the following badge to your `README.md`.
 Clicking the badge will also automatically open the app and redirect the
 user to your module!
 
-<a href='#' onclick='alert("This is just an example 🙂")'>
-    <img alt='Install with Framer Modules'
-    src='https://raw.githubusercontent.com/kysely/framermodules.com/master/assets/badge@2x.png' width='160' height='40' /></a>
+<img alt='Install with Framer Modules'
+src='https://raw.githubusercontent.com/kysely/framermodules.com/master/assets/badge@2x.png' width='160' height='40' />
 
 <p>&nbsp;</p>
 
