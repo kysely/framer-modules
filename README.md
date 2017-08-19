@@ -1,5 +1,5 @@
-# Publishing Your Module
-###### *Please note this is a guide for publishing before the project is released (release planned on Monday)*
+# Publish Your Module
+###### :grey_exclamation: *Please note this is a guide for publishing before the project is released (release planned on Monday)*
 
 ## 1. Create an example code (snippet)
 People who will use your module need to know how it works. For these purposes,
@@ -85,7 +85,7 @@ Markdown (will use @1x version)
 ~~Open Framer Modules, click Publish button in the top right corner,
 enter your GitHub repository link and follow the instructions on the screen.~~
 
-**Until the project is public, please just send the link to me, I'll fresh-publish all the modules upon the app release :)**
+:grey_exclamation: **Until the project is public, please just send the link to me, I'll fresh-publish all the modules upon the app release :)**
 
 ## Okay, how do I update? (once the app is released)
 Just push the changes to GitHub. If you make some changes to `module.json`,
