@@ -1,5 +1,5 @@
 # Publish Your Module
-###### :grey_exclamation: *Please note this is a guide for publishing before the project is released (release planned on Monday)*
+###### :grey_exclamation: *Please note this is a guide for publishing before the project is released*
 
 ## 1. Create an example code (snippet)
 People who will use your module need to know how it works. For these purposes,
@@ -13,7 +13,7 @@ Module.json holds all important metadata about your module.
 
 | key            | type              | description                           |
 | ---------------|:-----------------:|---------------------------------------|
-| `name`         | *String*          | Human readable name of your module that is seen in the app. <br /><br />Do know that a `unique_name` **will be automatically created** from the `name` and used as the main identificator for the directory name, dependency link, etc.
+| `name`         | *String*          | Human readable name of your module that is seen in the app. <br /><br />Do know that a `unique_name` **will be automatically created** from the `name` and used as the main identificator for the directory name, dependency link, etc.<br /><br />*[Check for name availability and `unique_name` before publishing](https://checkname.framermodules.com)*
 | `description`  | *String*          | Brief description of what your module does *(recommended 100 characters).*
 | `author`       | *String*          | Your name, right?
 | `require`      | *String*          | A `require()` statement that will load your module to the prototype.<br /><br />*Please avoid using path to the module file that includes `.framer`. Framer won't be able to recognize the module.*
@@ -65,8 +65,6 @@ src='https://raw.githubusercontent.com/kysely/framermodules.com/master/assets/ba
 <p>&nbsp;</p>
 
 Just copy one of the snippets and replace `<MODULE NAME>` with yours as defined in `name` key.
-
-:warning: **Please note that you won't be able to see the badge in your README until Monday. This is expected behavior since the domain's DNS are still in configuration. You can leave the code in your docs and badge will start working once the app is released.**
 
 HTML **(recommended)**
 ```html
