@@ -11,7 +11,7 @@
     "build": "npm run buildinterface && npm run buildcore",
     "devserver": "webpack-dev-server --progress --inline --hot",
     "start": "npm run buildcore && electron .",
-    "release": "npm run build && build --mac -p always",
+    "release": "npm run build && build --mac -p always && rm -rf dist",
     "dist": "npm run build && electron-builder"
   },
   "keywords": [

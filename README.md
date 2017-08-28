@@ -3,7 +3,7 @@
 </h3>
 
 <h1 id='framer-modules' align='center'>Framer Modules</h1>
-<h3 align='center'>Discover, install and save your favorite modules at one place</h3>
+<h3 align='center'>Community-driven modules registry and manager for Framer</h3>
 
 <h4 align='center'>
     <a href='https://github.com/kysely/framer-modules/releases/latest'>
