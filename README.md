@@ -10,11 +10,11 @@
         <img src='./resources/download-button@2x.png' width='270' alt='Download Framer Modules' />
     </a>
 </h4>
-<h3 align='center'>
+<p align='center'>
     <a href='https://github.com/kysely/framer-modules/blob/master/PUBLISH.md'>
         <img src='./resources/publish-button@2x.png' width='270' alt='Download Framer Modules' />
     </a>
-</h3>
+</p>
 
 <br />
 
@@ -78,7 +78,9 @@ or create new one and save even more time!
 | Delete preset                             | <kbd>Cmd</kbd> <kbd>Backspace</kbd> |
 | Edit preset modules                       | <kbd>Cmd</kbd> <kbd>E</kbd>         |
 
-![It's what we make it. So let's make it great!](./resources/feature-community@2x.png)
+<a id='contribute'></a>
+
+[![It's what we make it. So let's make it great!](./resources/feature-community@2x.png)](#contribute)
 
 The “community-driven” part in the description is not just an empty phrase.
 This app is developed by the same people who are using it. If you are
