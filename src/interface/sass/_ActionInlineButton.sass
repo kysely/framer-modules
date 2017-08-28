@@ -1,0 +1,29 @@
+$actionInlineButtonHeight: 23px
+$actionButtonBackground: rgba(255, 255, 255, 0.1)
+
+$fontSizeInlineButton: 11px #{'/'} 23px
+
+button.actionInlineButton
+    padding: 0 0 0 5px
+    height: $actionInlineButtonHeight
+    border-radius: 3px
+    border: none
+    outline: none
+    background: none
+    overflow: hidden
+
+    div.icon
+        float: right
+        display: inline-block
+        margin: 0
+        width: $actionButtonSize
+        height: $actionButtonSize
+
+    span.short
+        float: left
+        display: inline-block
+        font: italic $fontWeightRegular $fontSizeInlineButton $fontFamilyText
+        color: $fontColorButtonLabel
+
+button.actionInlineButton:focus
+    background-color: $colorFocus

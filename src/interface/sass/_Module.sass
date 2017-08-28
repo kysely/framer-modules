@@ -1,0 +1,99 @@
+$moduleHeight: 110px
+$moduleThumbSize: 80px
+$moduleSeparator: rgba(223, 229, 235, 0.06)
+$moduleThumbBorder: rgb(51, 51, 51)
+$moduleThumbBorderActive: rgb(90, 200, 250)
+
+$fontSizeModuleName: 20px #{'/'} 24px
+$fontSizeModuleDesc: 14px #{'/'} 21px
+$fontSizeModuleAuthor: 13px
+
+$fontColorModuleName: rgb(225, 229, 235)
+$fontColorModuleDesc: rgb(180, 183, 192)
+
+li.module
+    position: relative
+    width: 100%
+    height: $moduleHeight
+    border-bottom: 1px solid $moduleSeparator
+    overflow: hidden
+    box-sizing: border-box
+
+    div.moduleThumbnail
+        margin: 13px 18px 0 15px
+        float: left
+        width: $moduleThumbSize
+        height: $moduleThumbSize
+        background-image: url($THUMB)
+        border-radius: 5px
+        border: 2px solid $moduleThumbBorder
+        overflow: hidden
+
+        video, img
+            margin: 0
+            width: $moduleThumbSize
+            height: $moduleThumbSize
+
+    div.moduleDetails
+        float: left
+
+        h2
+            width: 540px
+            height: 24px
+            overflow: hidden
+            margin: 18px 0 10px 0
+            font: $fontWeightRegular $fontSizeModuleName $fontFamilyDisplay
+            color: $fontColorModuleName
+            letter-spacing: 0.2px
+
+            span
+                margin: 0 0 0 5px
+                font: $fontWeightRegular $fontSizeModuleAuthor $fontFamilyText
+                color: $fontColorModuleDesc
+
+        p
+            margin: 0
+            width: 300px
+            height: 42px
+            overflow: hidden
+            font: $fontWeightRegular $fontSizeModuleDesc $fontFamilyText
+            color: $fontColorModuleDesc
+
+    div.installedBadge
+        position: absolute
+        top: 17px
+        right: 30px
+        width: 70px
+        height: 17px
+        background-image: url($INSTALLED_BADGE)
+
+    div.moduleActions
+        display: none
+        float: right
+        margin: 28px 30px 0 0
+        overflow: hidden
+
+        button
+            margin-right: 15px
+
+        button:last-child
+            margin-right: 0
+
+li.module.selected
+    background-color: $colorSelectedBlue
+
+    div.moduleThumbnail
+        border-color: $moduleThumbBorderActive
+
+    div.moduleDetails
+        h2, p, span
+            color: $colorWhite
+
+        h2
+            width: 320px
+
+    div.installedBadge
+        display: none
+
+    div.moduleActions
+        display: block

@@ -1,0 +1,33 @@
+$splashItemHeight: 60px
+
+div#splashScreen
+    width: 100%
+    height: $windowHeight
+    outline: none
+    box-sizing: border-box
+    overflow: hidden
+
+    h2
+        margin: 180px 0 0 0
+        font: $fontWeightRegular $fontSizeFirstTime $fontFamilyText
+        color: $colorLightGrey
+        text-align: center
+
+    li.splashItem
+        display: block
+        padding: 17px 0 0 30px
+        width: 100%
+        height: $splashItemHeight
+        font: $fontWeightRegular $fontSizeModuleName $fontFamilyDisplay
+        color: $colorWhite
+        letter-spacing: 0.2px
+        box-sizing: border-box
+        border-bottom: 1px solid $moduleSeparator
+
+        span
+            margin: 0 30px 0 0
+            float: right
+            color: rgba(225, 229, 239, 0.39)
+
+    li.splashItem.selected
+        background-color: $colorSelectedBlue

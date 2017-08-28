@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+app
+dist
+yarn-error.log
+dump.md

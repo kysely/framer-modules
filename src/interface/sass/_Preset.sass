@@ -1,0 +1,71 @@
+$moduleHeight: 110px
+$moduleThumbSize: 80px
+$moduleSeparator: rgba(223, 229, 235, 0.06)
+$moduleThumbBorder: rgb(51, 51, 51)
+$moduleThumbBorderActive: rgb(90, 200, 250)
+
+$fontSizeModuleName: 20px #{'/'} 24px
+$fontSizeModuleDesc: 14px #{'/'} 21px
+$fontSizeModuleAuthor: 13px
+
+$fontColorModuleName: rgb(225, 229, 235)
+$fontColorModuleDesc: rgb(180, 183, 192)
+
+li.preset
+    width: 100%
+    height: $moduleHeight
+    border-bottom: 1px solid $moduleSeparator
+    overflow: hidden
+    box-sizing: border-box
+
+    div.presetDetails
+        float: left
+        margin: 0 0 0 50px
+
+        h2
+            margin: 18px 0 10px 0
+            font: $fontWeightRegular $fontSizeModuleName $fontFamilyDisplay
+            color: $fontColorModuleName
+            letter-spacing: 0.2px
+
+        p
+            margin: 0 0 0 83px
+            width: 340px
+            height: 42px
+            overflow: hidden
+            font: $fontWeightRegular $fontSizeModuleDesc $fontFamilyText
+            color: $fontColorModuleDesc
+
+    div.includesBadge
+        float: left
+        margin: 2px 0 0 0
+        width: 70px
+        height: 17px
+        background-image: url($INCLUDES_BADGE)
+
+    div.moduleActions
+        display: none
+        float: right
+        margin: 28px 30px 0 0
+        overflow: hidden
+
+        button
+            margin-right: 15px
+
+        button:last-child
+            margin-right: 0
+
+
+
+li.preset.selected
+    background-color: $colorSelectedBlue
+
+    div.presetDetails
+        h2, p, span
+            color: $colorWhite
+
+    div.includesBadge
+        background-image: url($INCLUDES_BADGE_ACTIVE)
+
+    div.moduleActions
+        display: block

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="40px" viewBox="0 0 50 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polygon id="path-1" points="0 0 3.92504118 0 3.92504118 3.92504118"></polygon>
+        <path d="M0,0 L3.92504118,0 L3.92504118,3.92504118 L0,3.92504118 L0,0 Z M3.92504118,0 L7.85008236,3.92504118 L3.92504118,3.92504118 L3.92504118,0 Z" id="path-3"></path>
+        <path d="M3.92504118,0 L7.85008236,0 L7.85008236,3.92504118 L3.92504118,3.92504118 L3.92504118,0 Z M0,0 L3.92504118,0 L3.92504118,3.92504118 L0,0 Z" id="path-5"></path>
+    </defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PROTOTYPE_ICON">
+            <g id="Group-3" transform="translate(21.112751, 22.058955)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <polygon id="Fill-1" fill="#0069F2" mask="url(#mask-2)" points="-0.204429228 4.12947041 4.12947041 4.12947041 4.12947041 -0.204429228 -0.204429228 -0.204429228"></polygon>
+            </g>
+            <g id="Group-6" transform="translate(21.112751, 18.133914)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Clip-5"></g>
+                <polygon id="Fill-4" fill="#1BAEFF" mask="url(#mask-4)" points="-0.204429228 4.12947041 8.05451159 4.12947041 8.05451159 -0.204429228 -0.204429228 -0.204429228"></polygon>
+            </g>
+            <g id="Group-9" transform="translate(21.112751, 14.208873)">
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <g id="Clip-8"></g>
+                <polygon id="Fill-7" fill="#97E5FF" mask="url(#mask-6)" points="-0.204429228 4.12947041 8.05451159 4.12947041 8.05451159 -0.204429228 -0.204429228 -0.204429228"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

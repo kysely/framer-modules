@@ -1,0 +1,68 @@
+$modalWindowWidth: 300px
+$modalWindowHeight: 250px
+$modalItemHeight: 40px
+$modalListSeparator: rgba(192, 215, 255, 0.1)
+$modalWindowBackground: rgb(32, 36, 44)
+$modalInputBackground: rgba(191, 210, 255, 0.10)
+
+$fontSizeModalInput: 14px #{'/'} 40px
+$fontColorModalInput: rgb(192, 215, 255)
+$fontColorModalInputPlaceholder: rgb(145, 158, 186)
+
+div.modalOverlay
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 1002
+    width: 100%
+    height: 100%
+    background-color: rgba(0, 0, 0, 0.4)
+
+div#modalWindow
+    margin: 115px auto
+    padding: 0
+    width: $modalWindowWidth
+    height: $modalWindowHeight
+    border-radius: 6px
+    overflow: auto
+    outline: none
+    background-color: $modalWindowBackground
+    box-shadow: 0 2px 30px 0 rgba(0,0,0,0.50)
+    z-index: 1003
+
+    input
+        margin: 10px
+        padding: 0 10px
+        width: calc(100% - 20px)
+        height: 30px
+        background: $modalInputBackground
+        font: $fontWeightRegular $fontSizeModalInput $fontFamilyText
+        color: $fontColorModalInput
+        border-radius: 3px
+        box-sizing: border-box
+        border: none
+        outline: none
+
+    input::placeholder
+        color: $fontColorModalInputPlaceholder
+
+    li.modalItem
+        height: $modalItemHeight
+        border-bottom: 1px solid $modalListSeparator
+        box-sizing: border-box
+
+        span.itemLabel
+            margin: 0 0 0 20px
+            font: $fontWeightRegular $fontSizeModalInput $fontFamilyText
+            color: $colorWhite
+
+        button
+            display: none
+            float: right
+            margin: 9px 20px 0 0
+
+    li.modalItem.selected
+        background-color: $colorSelectedBlue
+
+        button
+            display: block

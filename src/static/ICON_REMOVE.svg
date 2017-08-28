@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON_REMOVE">
+            <path d="M11.5,18 C7.91014913,18 5,15.0898509 5,11.5 C5,7.91014913 7.91014913,5 11.5,5 C15.0898509,5 18,7.91014913 18,11.5 C18,15.0898509 15.0898509,18 11.5,18 Z M11.5,17 C14.5375661,17 17,14.5375661 17,11.5 C17,8.46243388 14.5375661,6 11.5,6 C8.46243388,6 6,8.46243388 6,11.5 C6,14.5375661 8.46243388,17 11.5,17 Z" id="REMOVE" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M8.97519887,14.0248011 L14.0276926,8.97230743" id="Line" stroke="#FAFBFE" stroke-linecap="square"></path>
+            <path d="M8.97519887,14.0248011 L14.0276926,8.97230743" id="Line" stroke="#FAFBFE" stroke-linecap="square" transform="translate(11.500000, 11.500000) scale(-1, 1) translate(-11.500000, -11.500000) "></path>
+        </g>
+    </g>
+</svg>

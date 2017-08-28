@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="55px" viewBox="0 0 50 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON_SEARCH" fill-rule="nonzero" fill="#D7DDEB">
+            <path d="M29.8907479,28.4765344 L34.9142136,33.5 L33.5,34.9142136 L28.4765344,29.8907479 C27.4957155,30.589209 26.2958304,31 25,31 C21.6862915,31 19,28.3137085 19,25 C19,21.6862915 21.6862915,19 25,19 C28.3137085,19 31,21.6862915 31,25 C31,26.2958304 30.589209,27.4957155 29.8907479,28.4765344 Z M25,30 C27.7614237,30 30,27.7614237 30,25 C30,22.2385763 27.7614237,20 25,20 C22.2385763,20 20,22.2385763 20,25 C20,27.7614237 22.2385763,30 25,30 Z" id="SEARCH_ICON"></path>
+        </g>
+    </g>
+</svg>

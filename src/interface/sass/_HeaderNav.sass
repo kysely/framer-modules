@@ -1,0 +1,112 @@
+$tabsHeight: 22px
+$tabsItemWidth: 87px
+$tabsBackground: rgba(216, 216, 216, 0.06)
+$tabsItemSeparator: rgba(192, 215, 255, 0.07)
+
+$fontSizeTabs: 10px
+$fontColorTabs: rgb(198, 215, 255)
+
+$headerNavHeight: 40px
+$headerNavBackground: rgba(19, 19, 19, 0.15)
+$headerSeparator: rgba(255, 255, 255, 0.06)
+
+$fontSizePrototypeName: 13px #{'/'} $headerNavHeight
+$fontColorPrototypeName: rgba(213, 215, 223, 0.66)
+
+section.headerNav
+    -webkit-app-region: drag
+    width: 100%
+    height: $headerNavHeight
+    background-color: $headerNavBackground
+    border-bottom: 1px solid $headerSeparator
+    overflow: hidden
+    box-sizing: border-box
+
+    h1
+        padding: 0 0 0 50px
+        margin: 0
+        float: left
+        display: inline-block
+        width: 160px
+        background: url($PROTOTYPE_ICON) top left no-repeat
+        color: $fontColorPrototypeName
+        font: $fontWeightRegular $fontSizePrototypeName $fontFamilyText
+
+        button
+            display: none
+            margin: 0 0 0 3px
+            height: 20px
+            width: 9px
+            background: url($PROTOTYPE_CLOSE) top center no-repeat
+            border-radius: 3px
+            border: none
+            outline: none
+
+            span
+                visibility: hidden
+
+        button:focus
+            background-color: $tabsBackground
+
+    h1:hover
+        button
+            display: inline-block
+
+    aside
+        float: right
+
+        button
+            margin: 8px 11px 0 0
+            width: $actionButtonSize
+            height: $actionButtonSize
+            border-radius: $actionButtonSize/2
+            background: url($ICON_PUBLISH)
+            border: none
+            outline: none
+
+            span
+                visibility: hidden
+
+        button:focus
+            background-color: $tabsBackground
+
+        button.active
+            background: $colorSelectedBlue url($ICON_PUBLISH_ACTIVE)
+
+
+    nav
+        clear: both
+        display: inline-block
+        margin: 8px auto
+        width: $tabsItemWidth * 3
+        height: $tabsHeight
+        background-color: $tabsBackground
+        border-radius: 3px
+        overflow: hidden
+
+        button
+            margin: 0
+            padding: 0
+            width: $tabsItemWidth
+            height: $tabsHeight
+            color: $fontColorTabs
+            font: $fontWeightRegular $fontSizeTabs $fontFamilyText
+            text-transform: uppercase
+            letter-spacing: 0.2px
+            box-sizing: border-box
+            background: none
+            border: none
+            outline: none
+            border-left: 1px solid $tabsItemSeparator
+            transition: 0.1s all
+
+        button:first-child
+            border-left: none
+
+        button:focus
+            background-color: $colorFocus
+
+        button.active
+            background-color: $colorSelectedBlue
+            color: $colorWhite
+            transition: 0.1s all

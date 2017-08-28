@@ -1,0 +1,45 @@
+$actionButtonWidth: 40px
+$actionButtonHeight: 60px
+$actionButtonBackground: rgba(255, 255, 255, 0.1)
+
+$fontSizeButtonLabel: 11px #{'/'} 13px
+
+$fontColorButtonLabel: rgb(255, 255, 255)
+$fontColorButtonShort: rgb(198, 215, 255)
+
+$icons: ('INSTALL', 'SNIPPET', 'PRESET', 'GITHUB', 'REMOVE')
+@each $icon in $icons
+    .icon.#{$icon}
+        background-image: url(nth($ICONS_LIST, index($icons, $icon)))
+        background-repeat: no-repeat
+
+button.actionButton
+    padding: 0
+    width: $actionButtonWidth
+    height: $actionButtonHeight
+    border-radius: 3px
+    border: none
+    outline: none
+    background: none
+    overflow: hidden
+
+    div.icon
+        margin: 0 auto 7px auto
+        width: $actionButtonSize
+        height: $actionButtonSize
+        border-radius: $actionButtonSize/2
+        background-color: $actionButtonBackground
+
+    span.label
+        margin: 0 0 4px 0
+        display: block
+        font: $fontWeightRegular $fontSizeButtonLabel $fontFamilyText
+        color: $fontColorButtonLabel
+
+    span.short
+        display: block
+        font: italic $fontWeightRegular $fontSizeButtonLabel $fontFamilyText
+        color: $fontColorButtonShort
+
+button.actionButton:focus
+    background-color: $colorFocus

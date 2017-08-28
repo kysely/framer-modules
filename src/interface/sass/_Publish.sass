@@ -1,0 +1,44 @@
+$publishButtonSize: 138px
+
+$fontSizeFirstTime: 24px #{'/'} 35px
+
+div#firstTimePublishing
+    width: 100%
+    height: $contentHeight
+    text-align: center
+    overflow: hidden
+    box-sizing: border-box
+
+    h2, a
+        margin: 125px 0 0 0
+        font: $fontWeightRegular $fontSizeFirstTime $fontFamilyText
+        color: $colorLightGrey
+
+div.fetched
+    width: 100%
+    height: $contentHeight
+    text-align: center
+    overflow: hidden
+    box-sizing: border-box
+
+    button
+        margin: 60px 0 0 0
+        width: $publishButtonSize
+        height: $publishButtonSize
+        background: none
+        border: none
+        outline: none
+
+        span
+            visibility: hidden
+
+    h2
+        margin: 30px 0 0 0
+        font: $fontWeightRegular $fontSizeFirstTime $fontFamilyText
+        color: $colorLightGrey
+
+$publishIcons: ('SUCCESS', 'DENY', 'FETCH_OK', 'FETCH_DUPL_OK')
+@each $publishIcon in $publishIcons
+    div.fetched.#{$publishIcon} button
+        background-image: url(nth($PUBLISH, index($publishIcons, $publishIcon)))
+        background-repeat: no-repeat

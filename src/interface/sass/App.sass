@@ -1,0 +1,64 @@
+@import assets
+
+// TEXT CONFIG
+$fontFamilyDisplay: -apple-system, 'SF UI Display', 'Roboto', Helvetica, sans-serif
+$fontFamilyText: -apple-system, 'SF UI Text', 'Roboto', Helvetica, sans-serif
+
+$fontWeightRegular: 300
+$fontWeightMedium: 400
+
+// COLORS
+$colorWhite: rgb(255, 255, 255)
+$colorSelectedBlue: rgba(20, 91, 255, 0.81)
+$colorSelectedBlueOp: rgba(20, 91, 255, 1)
+$colorFocus: rgba(255, 255, 255, 0.06)
+
+$blueTint: rgba(173, 180, 255, 0.04)
+
+$colorLightGrey: rgb(225, 229, 239)
+
+// OTHER CONFIGS
+$windowWidth: 680px
+$windowHeight: 480px
+$actionButtonSize: 23px
+$contentHeight: 385px
+
+html
+    user-select: none
+    background-color: $blueTint
+    // background: rgb(29,29,31)
+
+body
+    margin: 0
+    padding: 0
+    color: $colorWhite
+    text-rendering: optimizeLegibility !important
+    overflow: hidden
+
+ul
+    margin: 0
+    padding: 0
+
+li
+    list-style-type: none
+
+main
+    margin: 95px 0 0 0
+    width: 100%
+    height: $contentHeight
+    overflow: auto
+
+@import HeaderNav
+@import Header
+@import Module
+@import ModuleUnmanaged
+@import Preset
+@import ActionButton
+@import ActionInlineButton
+@import ListEnd
+@import Error
+@import Notification
+@import ModalWindow
+@import LoadingIndicator
+@import Publish
+@import Splash

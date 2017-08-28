@@ -1,0 +1,35 @@
+$headerHeight: 95px
+
+$fontColorSearch: rgba(243, 246, 255, 0.82)
+$fontColorSearchPlaceholder: rgb(133, 138, 149)
+$fontSizeSearch: 24px
+
+header
+    position: fixed
+    top: 0
+    z-index: 1000
+    width: 100%
+    height: $headerHeight
+    border-bottom: 1px solid $headerSeparator
+    background: url($SEARCH_ICON) 0 $headerNavHeight no-repeat
+    overflow: hidden
+    box-sizing: border-box
+
+    input
+        padding: 0
+        margin: 0 0 0 50px
+        width: 100%
+        height: $headerHeight - $headerNavHeight
+        font: $fontWeightRegular $fontSizeSearch $fontFamilyDisplay
+        color: $fontColorSearch
+        letter-spacing: 0.2px
+        background: none
+        border: none
+        outline: none
+
+    input:focus
+        margin-top: 0
+        padding: 0
+
+    input::placeholder
+        color: $fontColorSearchPlaceholder

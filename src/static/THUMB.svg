@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="THUMB">
+            <rect fill-opacity="0.253481658" fill="#000000" x="0" y="0" width="80" height="80" rx="3"></rect>
+            <polygon id="Manager" fill-opacity="0.100000001" fill="#C6D7FF" points="58 22 40 40 58 58"></polygon>
+            <polygon id="Module" fill-opacity="0.150000006" fill="#C6D7FF" points="22 22 58 58 22 58"></polygon>
+        </g>
+    </g>
+</svg>

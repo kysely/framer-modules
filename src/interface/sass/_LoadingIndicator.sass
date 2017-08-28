@@ -1,0 +1,41 @@
+$loadingIndicatorHeight: 1px
+$loadingPieceWidth: 100px
+
+@keyframes loadingAnimation
+    0%
+        left: 0px
+    50%
+        left: $windowWidth - $loadingPieceWidth
+    100%
+        left: 0px
+
+@keyframes blinkLoaded
+    0%
+        background-color: rgba(20, 91, 255, 0)
+    50%
+        background-color: rgba(20, 91, 255, 1)
+    100%
+        background-color: rgba(20, 91, 255, 0)
+
+div.loadingIndicator
+    position: absolute
+    top: 38px
+    left: 0
+    width: 100%
+    height: $loadingIndicatorHeight
+    overflow: hidden
+
+    div.loadingPiece
+        display: none
+        position: relative
+        width: $loadingPieceWidth
+        height: $loadingIndicatorHeight
+        background-color: $colorSelectedBlue
+        animation: loadingAnimation 1s infinite
+
+div.loadingIndicator.false
+    animation: blinkLoaded 300ms 1
+
+div.loadingIndicator.true
+        div.loadingPiece
+            display: block

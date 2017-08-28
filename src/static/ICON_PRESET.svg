@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON_PRESET" fill-rule="nonzero" fill="#FFFFFF">
+            <path d="M6,8 L6,7 L13,7 L13,8 L6,8 Z M15,7 L18,7 L18,8 L15,8 L15,9 L14,9 L14,6 L15,6 L15,7 Z M10,11 L18,11 L18,12 L10,12 L10,13 L9,13 L9,10 L10,10 L10,11 Z M6,12 L6,11 L8,11 L8,12 L6,12 Z M13,15 L18,15 L18,16 L13,16 L13,17 L12,17 L12,14 L13,14 L13,15 Z M6,16 L6,15 L11,15 L11,16 L6,16 Z" id="PRESET"></path>
+        </g>
+    </g>
+</svg>
