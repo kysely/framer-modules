@@ -1,5 +1,11 @@
-<h3 id='framer-modules-start' align='center'>
-    <img src='./resources/framer-modules-icon.png' width='50' alt='Framer Modules Icon' />
+<a id='docs'></a>
+
+<br />
+
+<h3 align='center'>
+    <a href='#docs'>
+        <img src='./resources/framer-modules-icon.png' width='50' alt='Framer Modules Icon' />
+    </a>
 </h3>
 
 <h1 id='framer-modules' align='center'>Framer Modules</h1>
@@ -210,7 +216,7 @@ The source code for the server lies in its own repository.
 
 Simple as it sounds. The database of choice is
 [**`MongoDB`**](https://www.mongodb.com/what-is-mongodb)
-and is currently deployed on the free 
+and is currently deployed on the free
 [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) cluster.
 Data modeling of the collection is very straightforward and you will be able to
 to understand it from the Mongoose Schema in the server's source code or docs.
