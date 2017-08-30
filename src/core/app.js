@@ -77,6 +77,7 @@ const menuTemplate = [
     {
         submenu: [
             { role: 'about' },
+            { label: 'Check for Update', accelerator: 'Cmd+U', click: checkForUpdates },
             { type: 'separator' },
             { role: 'quit' }
         ]
