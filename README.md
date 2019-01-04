@@ -2,6 +2,13 @@
 
 <br />
 
+### Development Discontinued
+#### Please use the official [Framer Store](https://store.framer.com) for new [Framer X](https://framer.com).
+
+---
+
+<br />
+
 <h3 align='center'>
     <a href='#docs'>
         <img src='./resources/framer-modules-icon.png' width='50' alt='Framer Modules Icon' />
